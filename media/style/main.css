@@ -1,0 +1,35 @@
+img {
+    width: 100%;
+}
+
+h1 {
+    color: white;
+}
+
+/* Efeito do Hover -------------------------------------------- */
+
+.centered {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img:hover + .centered {
+    display: block;
+}
+
+img:hover {
+    filter: brightness(50%);
+}
+
+/* Secoes da página ------------------------------------------- */
+
+.secoes {
+    display: none;
+}
+
+.secoes.ativa {
+    display: block;
+}
