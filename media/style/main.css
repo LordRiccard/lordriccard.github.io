@@ -16,11 +16,11 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
-img:hover + .centered {
+img.hv:hover + .centered {
     display: block;
 }
 
-img:hover {
+img.hv:hover {
     filter: brightness(50%);
 }
 
