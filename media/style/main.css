@@ -16,6 +16,13 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
+@media only screen and (max-width: 768px) {
+    .centered {
+        display: block;
+        color: rgba(240, 240, 240, 0.895);
+    }
+}
+
 img.hv:hover + .centered {
     display: block;
 }
